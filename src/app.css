@@ -1,0 +1,205 @@
+nav{
+ width: 100%;
+ padding:40px;
+ background-color: #1a1c20;
+ transition: 8s;
+}
+
+#main-title{
+  color:#f0a500;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:2rem;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.main-logo{
+  padding-top:10%;
+  width: 90%;
+  padding-left:5%;
+  transition: 1.5s
+}
+
+.display-none{
+  visibility: hidden;
+}
+.display-block{
+  display: block;
+}
+
+.hidden-logo{
+  transform:translateY(-2000px);
+}
+.games-container{
+  padding-top:30px;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+.card{
+  margin:auto;
+  width: 80%;
+  padding:20px;
+  background-color:#f4f4f4;
+  border-radius:5px;
+  text-align:center;
+  border:1px solid #d9d9d9;
+  font-family: 'Baloo Tammudu 2', cursive;
+  -webkit-box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.75);
+
+}
+
+
+
+.correct{
+ transition: 0.2s ease-out;
+ -webkit-box-shadow: 0px 0px 31px 26px rgba(14,230,28,1);
+-moz-box-shadow: 0px 0px 31px 26px rgba(14,230,28,1);
+box-shadow: 0px 0px 31px 26px rgba(14,230,28,1);
+
+}
+
+.wrong{
+  transition: 0.2s ease-in;
+  -webkit-box-shadow: 0px 0px 31px 18px rgba(230,12,30,1);
+  -moz-box-shadow: 0px 0px 31px 18px rgba(230,12,30,1);
+  box-shadow: 0px 0px 31px 18px rgba(230,12,30,1);
+
+}
+.quiz-img{
+  width:80%;
+}
+
+.not-displayed{
+  display:none;
+}
+
+.play-btn{
+  padding:20px 50px 20px 50px;
+  border:0px;
+  border-radius:4px;
+  color:#fff;
+  font-size:1.5rem;
+  background-color: #f0a500;
+}
+.play-btn:hover{
+  -webkit-box-shadow: 0px 0px 19px 2px rgba(252,204,10,1);
+-moz-box-shadow: 0px 0px 19px 2px rgba(252,204,10,1);
+box-shadow: 0px 0px 19px 2px rgba(252,204,10,1);
+}
+
+.time{
+  justify-content: center;
+  display: inline-block;
+}
+
+.time-container{
+  vertical-align: baseline;
+  font-size:2.5rem;
+}
+
+.main-game{
+  width: 60%;
+  margin:auto;
+}
+.clock-logo{
+  width: 25px;
+}
+
+
+
+#main-game-container{
+  background-color: #f4f4f4;
+  width:100%;
+  margin:auto;
+  margin-top:20px;
+  padding:30px;
+  border:1px solid #dbdbdb;
+  border-radius:5px;
+}
+.default-shadow{
+  -webkit-box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.75);
+
+}
+
+.question{
+  font-size:1.5rem;
+  font-family: 'Vollkorn', serif;
+}
+.answers-container{
+  margin-top:80px;
+  display: flex;
+  flex-wrap:wrap;
+  width:90%;
+}
+
+.answer-btn{
+  padding:30px 50px 30px 50px;
+  width:500px;
+  margin-left:15%;
+  margin-bottom:30px;
+  border:none;
+  -webkit-box-shadow: 0px 7px 5px 0px rgba(207,117,0,1);
+-moz-box-shadow: 0px 7px 5px 0px rgba(207,117,0,1);
+box-shadow: 0px 7px 5px 0px rgba(207,117,0,1);
+ background-color: #f0a500;
+ border-radius:5px;
+ font-weight: bold;
+ font-family: 'B612', sans-serif;
+ font-size:1rem;
+}
+
+.action-btn{
+  border:none;
+  border-radius:5px;
+  margin-left:30px;
+  background-color: #cf7500;
+  color:#f4f4f4;
+  font-size:1.4rem;
+  padding:20px 40px 20px 40px;
+  margin-bottom:30px;
+  -webkit-box-shadow: 0px 0px 26px -2px rgba(235,173,17,1);
+-moz-box-shadow: 0px 0px 26px -2px rgba(235,173,17,1);
+box-shadow: 0px 0px 26px -2px rgba(235,173,17,1);
+}
+
+
+.points-container{
+  padding-top:10px;
+  font-size:1.5rem;
+  position: relative;
+  float:right;
+  display: inline-block;
+  font-family: 'Titillium Web', sans-serif
+}
+
+.answer-btn:focus{
+  outline:none
+}
+
+@media only screen and (max-width:790px){
+  .main-game{
+    width: 90%;
+  }
+  .main-logo{
+    padding-top:30%;
+  }
+}
+@media only screen and (max-width:500px){
+  .main-logo{
+    padding-top:50%;
+  }
+}
+@media only screen and (max-width:500px){
+  .main-logo{
+    padding-top:60%;
+  }
+}
